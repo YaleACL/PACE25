@@ -1,0 +1,19 @@
+base_url = "https://yaleacl.github.io/pave25"
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+minify_html = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+smart_punctuation = true
+
+[extra]
+footer_text = "The 2nd Yale PAVE Symposium, New Haven, CT, USA - Friday, April 11th, 2025."
+title = {tagline = "   ", title = "The 2nd Yale Symposium", subtitles = ["on Privacy, Accountability, Verification and Economics of Blockchain Systems", "<small>New Haven, CT, USA — Friday, April 11th, 2025</small>"]}
+banner = {extension = "jpg", size = "fixed", fade = false}
+buttons = [{name = "RSVP", url = "https://forms.gle/FVP38mttYY5dHqw96"}]
+image = {resize = 400, ext = '.jpg'}
+list_page_limit = 10
+header_pages = [{name = "Home", url = "/#home"},{name = "Previous Editions", url = "./previous"}]
